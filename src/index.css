@@ -530,6 +530,9 @@ form input {
   nav i {
     font-size: 1.2rem;
   }
+  .loader {
+    left: 30%;
+  }
   .card {
     margin: 5px 0;
   }
