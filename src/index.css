@@ -506,6 +506,9 @@ form input {
   nav h1 {
     font-size: 1.3rem;
   }
+  .loader {
+    left: 40%;
+  }
 }
 @media (max-width: 540px) {
   .container {
