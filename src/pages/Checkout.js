@@ -69,7 +69,7 @@ const Checkout = () => {
               Submit
             </button>
           </form>
-          <h1>Total = &#8377;{totalPrice}</h1>
+          <h1>Total = &#8377;{totalPrice.toFixed(2)}</h1>
         </>
       )}
     </div>
