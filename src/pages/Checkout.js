@@ -30,7 +30,7 @@ const Checkout = () => {
           <h1>Thank you for your order!</h1>
 
           <p>Thank you for shopping with us!</p>
-          <Link className="btn" to="/" onClick={refresh}>
+          <Link className="btn2" to="/" onClick={refresh}>
             Continue Shopping
           </Link>
         </div>
@@ -65,7 +65,7 @@ const Checkout = () => {
               <option value="">UK</option>
             </select>
             {/* button onclick submitHandler and clearCart */}
-            <button className="btn" type="submit" onClick={submitHandler}>
+            <button className="btn2" type="submit" onClick={submitHandler}>
               Submit
             </button>
           </form>

@@ -320,7 +320,7 @@ input {
   color: rgb(95, 93, 93);
 }
 
-.btn {
+.btn2 {
   text-transform: uppercase;
   /* background: rgb(202, 133, 3); */
   background-color: rgb(3, 109, 109);
@@ -338,13 +338,13 @@ input {
   transition: all 0.2s ease-in-out;
 }
 
-.btn:hover {
+.btn2:hover {
   background: rgb(65, 104, 2);
   color: whitesmoke;
   text-shadow: 0 1px 3px rgba(250, 247, 247, 0.2);
   border-radius: 7px;
 }
-.btn:active {
+.btn2:active {
   background: rgb(172, 202, 3);
   transform: translateY(3px);
 }
@@ -450,7 +450,7 @@ form input {
   }
   .list-group {
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 1rem 0.5rem;
   }
   .list-group > div {
@@ -527,12 +527,18 @@ form input {
   nav i {
     font-size: 1.2rem;
   }
+  .card {
+    margin: 5px 0;
+  }
   .badge {
     font-size: 0.6rem;
     padding: 0.1rem 0.42rem;
   }
   .list-group {
     font-size: 0.9rem;
+  }
+  .list-group > div {
+    margin-bottom: 0.6rem;
   }
   .filter {
     width: 40%;
