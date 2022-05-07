@@ -24,7 +24,17 @@ const Cart = () => {
           }}
         >
           <h2 style={{ color: "rgb(95, 93, 93)" }}>Your Cart Is Empty</h2>
-          <Link to="/" className="btn" style={{ marginTop: "2rem" }}>
+          <Link
+            to="/"
+            className="btn2"
+            // style={{
+            //   marginTop: "2rem",
+            //   padding: "7px 18px",
+            //   fontSize: "0.7rem",
+            //   borderRadius: "4px",
+            //   backgroundColor: "red",
+            // }}
+          >
             Go To Cart
           </Link>
         </div>
